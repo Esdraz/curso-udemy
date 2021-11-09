@@ -23,7 +23,7 @@ public class VectorAvgHeightProgram {
         }
         double avg = sum / n;
 
-        System.out.printf("AVERAGE HEIGHT: %33.2f%n", avg);
+        System.out.printf("AVERAGE HEIGHT: %.2f%n", avg);
 
         sc.close();
     }
