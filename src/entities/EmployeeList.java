@@ -37,6 +37,6 @@ public class EmployeeList {
     }
 
     public String toString() {
-        return id + ", " + name + "," + String.format("%.2f", salary);
+        return id + ", " + name + ", " + String.format("%.2f", salary);
     }
 }
